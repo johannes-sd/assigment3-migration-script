@@ -4,9 +4,9 @@ let file = "./datafiles/m3-customer-data.json";
 let partialData = [];
 
 function getFIleData (file) {
-    fs.readFile(, (err, data)=> {
+    fs.readFile(file, (err, data)=> {
         if(err) throw error();
-        console.log(JSON.parse(data));
+        console.log(data);
     })
 }
 
